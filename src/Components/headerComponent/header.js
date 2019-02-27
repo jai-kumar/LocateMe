@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
   render() {
     return (
-      	<nav className="navbar navbar-inverse">
+      	<nav className="navbar navbar-inverse navBarMargin">
 	  		<div className="container-fluid">
 	    		<div className="navbar-header">
 	      			<button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
