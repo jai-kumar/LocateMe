@@ -17,7 +17,7 @@ class Header extends Component {
 	    		<div className="collapse navbar-collapse" id="myNavbar">
 		      		<ul className="nav navbar-nav">
 				        <li className="active"><Link to='/'>Home</Link></li>
-		    			<li><Link to='/'>About</Link></li>
+		    			<li><Link to='/about'>About</Link></li>
 		      		</ul>
 	    		</div>
 	  		</div>

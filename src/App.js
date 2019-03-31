@@ -9,6 +9,7 @@ import Header from './Components/headerComponent/header';
 import Footer from './Components/footerComponent/footer';
 import Homepage from './Components/pages/homePage';
 import Map from './Components/pages/map';
+import About from './Components/pages/about';
 
 import './Assets/css/default.min.css';
 
@@ -20,6 +21,7 @@ class App extends Component {
 	        <Header />
 	        	<Route exact path='/' component={Homepage} />
 	        	<Route exact path='/map' component={Map} />
+	        	<Route exact path='/about' component={About} />
 	        <Footer />
 	      </div>
       </Router>
